@@ -12,7 +12,7 @@ implementation. The results show that the polygonal element of the polygonal SBF
 standard FEM element of the same element size. For transient problems, the results for the PSBFEM and FEM are in excellent
 agreement. Hence, the proposed method is robust and accurate for solving steady-state and transient seepage problems.
 
-![avatar](img.png)
+![alt](img.png)
 
 # How to link the MKL
 - We developed a UEL in Abaqus 6.14. In order to solve for eigenvalues and eigenvectors, we used the MKL library. Therefore, before using this UEL, it is necessary to link the MKL library.
