@@ -1,5 +1,6 @@
 # PS-SBFEM
 **Title:** A Novel Solution for Seepage Problems Implemented in the Abaqus UEL Based on the Polygonal Scaled Boundary Finite Element Method
+
 **Abstract:** 
 The scaled boundary finite element method (SBFEM) is a semianalytical computational scheme based on the characteristics of the
 finite element method (FEM) and boundary element method that combines their respective advantages. In this paper, the SBFEM
@@ -11,4 +12,16 @@ implementation. The results show that the polygonal element of the polygonal SBF
 standard FEM element of the same element size. For transient problems, the results for the PSBFEM and FEM are in excellent
 agreement. Hence, the proposed method is robust and accurate for solving steady-state and transient seepage problems.
 
-# 
+# Citation
+If you use PSBFEM-Abaqus for academic research, you are encouraged to cite the following paper:
+
+```
+@article{yang2022novel,
+  title={A Novel Solution for Seepage Problems Implemented in the Abaqus UEL Based on the Polygonal Scaled Boundary Finite Element Method},
+  author={Yang, Yang and Zhang, Zongliang and Feng, Yelin and Wang, Kun and others},
+  journal={Geofluids},
+  volume={2022},
+  year={2022},
+  publisher={Hindawi}
+}
+```
