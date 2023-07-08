@@ -12,6 +12,16 @@ implementation. The results show that the polygonal element of the polygonal SBF
 standard FEM element of the same element size. For transient problems, the results for the PSBFEM and FEM are in excellent
 agreement. Hence, the proposed method is robust and accurate for solving steady-state and transient seepage problems.
 
+# How to link the MKL
+- We developed a UEL in Abaqus 6.14. In order to solve for eigenvalues and eigenvectors, we used the MKL library. Therefore, before using this UEL, it is necessary to link the MKL library.
+- Fortunately, Abaqus comes with the MKL library, so we just need to modify the environment file to enable the linking. Please refer to the "abaqus_v6.env" file for specific instructions on how to do this. 
+
+# How to use the UEL
+- You can run UEL with the command
+```dos
+call abaqus job=xxx user=sbfem2DSeepage.for int 
+```
+
 # Citation
 If you use PSBFEM-Abaqus for academic research, you are encouraged to cite the following paper:
 
