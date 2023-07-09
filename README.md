@@ -25,7 +25,7 @@ call abaqus job=xxx user=sbfem2DSeepage.for int
 ```
 
 # Citation
-If you use PSBFEM-Abaqus for academic research, you are encouraged to cite the following paper:
+If you use PS-SBFEM for academic research, you are encouraged to cite the following paper:
 
 ```
 @article{yang2022novel,
