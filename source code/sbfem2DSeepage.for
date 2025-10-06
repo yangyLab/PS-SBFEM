@@ -425,7 +425,7 @@ c     Update K matrix
 c
       if (lflags(3).eq.4) return
       if (lflags(1).eq.62.or.lflags(1).eq.63) then
-c     Steady-state heat transfer analysis
+c     Steady-state seepage analysis
       do i = 1,ndofel
          do j = 1,ndofel
             amatrx(i,j) =  Kmatrix(i,j)
@@ -441,7 +441,7 @@ c
       end do
 
       else if(lflags(1).eq.64.or.lflags(1).eq.65) then
-c     Transient state heat transfer analysis
+c     Transient state seepage analysis
       H=0.d0
       Hold=0.d0
       do i=1,ndofel
@@ -499,3 +499,4 @@ c
       RETURN
       
       END
+
